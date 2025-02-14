@@ -1,5 +1,8 @@
 blank_issues_enabled: false
 contact_links:
-  - name: AAA Create new issue
+  - name: 🔗 Quick Create new issue
     url: https://issue.element-plus.org/
     about: The issue which is not created via https://issue.element-plus.org/ will be closed immediately.
+  - name: 🤔 Questions and Help
+    url: https://github.com/element-plus/element-plus/discussions
+    about: Ask questions and request help or other discussions.
