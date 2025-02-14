@@ -6,8 +6,6 @@ body:
       value: |
         **Before You Start...**
 
-        **We have provided an address for quickly creating issues. Please use this address first to create issues.**
-
         [🔗 快速创建新 issue](https://issue.element-plus.org/)
 
         This form is only for submitting bug reports. If you have a usage question
