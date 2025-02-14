@@ -1,72 +1,17 @@
-name: "\U0001F41E Bug report"
-description: Create a report to help us improve
+name: 'Blank Issue'
+description: Please use https://issue.element-plus.org/ to create a new issue.
 body:
   - type: markdown
     attributes:
       value: |
-        **Before You Start...**
-        This form is only for submitting bug reports. If you have a usage question
-        or are unsure if this is really a bug, make sure to:
-        - Read the [docs](https://element-plus.org)
-        - Ask on [Discord Chat](https://discord.com/invite/gXK9XNzW3X)
-        - Ask on [GitHub Discussions](https://github.com/element-plus/element-plus/discussions)
-        Also try to search for your issue - it may have already been answered or even fixed in the development branch.
-        However, if you find that an old, closed issue still persists in the latest version,
-        you should open a new issue using the form below instead of commenting on the old issue.
-  - type: input
-    id: version
-    attributes:
-      label: Vue version
-    validations:
-      required: true
-  - type: input
-    id: version
-    attributes:
-      label: Element Plus version
-    validations:
-      required: true
-  - type: input
-    id: reproduction-link
-    attributes:
-      label: Link to minimal reproduction
-      description: |
-        The easiest way to provide a reproduction is by showing the bug in [ Element Plus Playground](https://element-plus.run/).
-        If it cannot be reproduced in the playground and requires a proper build setup, try [StackBlitz](https://stackblitz.com/).
-        If neither of these are suitable, you can always provide a GitHub repository.
-        Please do not just fill in a random link. The issue will be closed if no valid reproduction is provided.
-      placeholder: Reproduction Link
-    validations:
-      required: true
+        **Notice:**
+        Do not create issues through this page, please use https://issue.element-plus.org to create new issues.
+        Issues created without this link will be closed directly.
+
+        **注意:**
+        不要通过此页面创建问题, 请使用 https://issue.element-plus.org 创建新的问题.
+        如果不是通过此链接创建的问题, 将会被直接关闭.
   - type: textarea
-    id: steps-to-reproduce
+    id: add-a-description
     attributes:
-      label: Steps to reproduce
-      description: |
-        What do we need to do after opening your repro in order to make the bug happen? Clear and concise reproduction instructions are important for us to be able to triage your issue in a timely manner. Note that you can use [Markdown](https://guides.github.com/features/mastering-markdown/) to format lists and code.
-      placeholder: Steps to reproduce
-    validations:
-      required: true
-  - type: textarea
-    id: expected
-    attributes:
-      label: What is expected?
-    validations:
-      required: true
-  - type: textarea
-    id: actually-happening
-    attributes:
-      label: What is actually happening?
-    validations:
-      required: true
-  - type: textarea
-    id: system-info
-    attributes:
-      label: System Info
-      description: Output of `npx envinfo --system --npmPackages vue --binaries --browsers`
-      render: shell
-      placeholder: System, Binaries, Browsers
-  - type: textarea
-    id: additional-comments
-    attributes:
-      label: Any additional comments?
-      description: e.g. some background/context of how you ran into this bug.
+      label: Add a description
